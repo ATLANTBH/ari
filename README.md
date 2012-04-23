@@ -21,13 +21,13 @@ Installation
 Install 'ari' gem:
 
 ```
-	gem 'ari'
+gem 'ari'
 ```
 
 or
 
 ```
-	gem 'ari', :git => git://github.com/atlantbh/ari.git
+gem 'ari', :git => git://github.com/atlantbh/ari.git
 ```
 	
 Note: Currently ari was tested only on rails 3.0+	
@@ -38,13 +38,13 @@ Setup
 After installation run ari generator.
 
 ```
-	rails generate ari
+rails generate ari
 ```
 	
 Add following resource to routes.rb.
 
 ```
-	resources :ari, :only => [:index, :show]
+resources :ari, :only => [:index, :show]
 ```
 	
 Run rails and point your browser to ari route, e.g. http://localhost:3000/ari
@@ -61,9 +61,9 @@ By default ari will display following information from model:
 You can exclude informations via ari_options
 
 ```
-	class User < ActiveRecord::Base
-		ari_options	:exclude => [:password, :money]
-	end
+class User < ActiveRecord::Base
+	ari_options	:exclude => [:password, :money]
+end
 ```
 
 This will exclude columns/relations names 'password' and 'money' from displaying.
