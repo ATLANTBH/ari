@@ -85,7 +85,9 @@ Preview
 
 Here is preview of ari:
 
-[!Model listing](https://secure.gravatar.com/avatar/f3f6279586ed1f6edc6db0e610163304?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png "Model listing")
+[Model listing](https://github.com/ATLANTBH/ari/raw/master/images/table-list.png "Model listing")
+[Sample table 1](https://github.com/ATLANTBH/ari/raw/master/images/sample-1.png "Sample table 1")
+[Sample table 2](https://github.com/ATLANTBH/ari/raw/master/images/sample-2.png "Sample table 2")
 
 License
 -------
