@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "ARI - Active Record Insector"
   s.description = "Inspects and navigate through Activerecord data via relations defined in models"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.0"
