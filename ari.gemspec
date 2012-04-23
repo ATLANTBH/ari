@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Ari::VERSION
   s.authors     = ["Pasalic Zaharije"]
   s.email       = ["zaharije@atlantbh.com"]
-  s.homepage    = "http://www.atlantbh.com"
+  s.homepage    = "https://github.com/ATLANTBH/ari"
   s.summary     = "ARI - Active Record Insector"
   s.description = "Inspects and navigate through Activerecord data via relations defined in models"
 
