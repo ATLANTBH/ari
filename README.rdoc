@@ -17,8 +17,10 @@ Active Record Inspector - extend rails project to easily display and navigate th
 
 Install 'ari' gem:
 
+<pre><code>
 	gem 'ari'
-	
+</code></pre>
+
 or
 
 	gem 'ari', :git => git://github.com/atlantbh/ari.git
