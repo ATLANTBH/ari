@@ -80,6 +80,13 @@ class User < ActiveRecord::Base
 end
 ```
 
+Preview
+------
+
+Here is preview of ari:
+
+[!Model listing](https://github.com/ATLANTBH/ari/raw/master/images/table-list.png "Model listing")
+
 License
 -------
 
