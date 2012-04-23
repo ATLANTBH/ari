@@ -1,0 +1,23 @@
+<%%= render :partial => 'styles' %>
+
+<table class="ari-table" cellpadding="0" cellspacing="0">
+	<tr>
+		<th>Model</th>
+		<th>Table</th>
+		<th># Records</th>
+	</tr>
+	
+	<%% @models.each do |model| %>
+		<tr>
+			<td class="ari-simple">			
+				<%%=link_to "#{model[:model]}", {:controller => "ari", :action => "show", :id => model[:model]} %>
+			</td>
+			<td>
+				<%%=model[:table]%>
+			</td>
+			<td>
+				<%%=model[:count]%>
+			</td>
+		</tr>
+	<%% end %>
+</table>

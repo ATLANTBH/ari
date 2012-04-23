@@ -1,0 +1,9 @@
+<div style="height:40px; margin-top:40px;">
+	<%% (0..((count / 10)-1)).each do |i|%>
+		<div style="float:left; padding:4px; line-height:13px; height:13px; background-color:<%%=offset/10 == i ? 'gray;' : 'white'%>; margin-left:3px;">
+			<%% offset = i * 10 %>
+			<%% params[:offset] = offset %>
+			<%%=link_to i,  {:controller => "ari", :action => "show", :id => params[:model], }.merge(params) %>
+		</div>
+	<%% end %>
+</div>
