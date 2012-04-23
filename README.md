@@ -27,7 +27,7 @@ gem 'ari'
 or
 
 ```
-gem 'ari', :git => git://github.com/atlantbh/ari.git
+gem 'ari', :git => git://github.com/ATLANTBH/ari.git
 ```
 	
 Note: Currently ari was tested only on rails 3.0+	
@@ -56,7 +56,7 @@ By default ari will display following information from model:
 
 * all columns
 * all has_ relations
-* all belons_ relations
+* all belongs_ relations
 
 You can exclude informations via ari_options
 
