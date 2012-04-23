@@ -17,11 +17,13 @@ Active Record Inspector - extend rails project to easily display and navigate th
 
 Install 'ari' gem:
 
-	<code>gem 'ari'</code>
+'''
+	gem 'ari'
+'''
 
 or
 
-	<code>gem 'ari', :git => git://github.com/atlantbh/ari.git</code>
+	gem 'ari', :git => git://github.com/atlantbh/ari.git
 	
 Note: Currently ari was tested only on rails 3.0+	
 	
@@ -29,11 +31,11 @@ Note: Currently ari was tested only on rails 3.0+
 
 After installation run ari generator.
 
-	<code>rails generate ari</code>
+	rails generate ari
 	
 Add following resource to routes.rb.
 
-	<code>resources :ari, :only => [:index, :show]</code>
+	resources :ari, :only => [:index, :show]
 	
 Run rails and point your browser to ari route, e.g. http://localhost:3000/ari
 
@@ -47,11 +49,9 @@ By default ari will display following information from model:
 
 You can exclude informations via ari_options
 
-<code>	
 	class User < ActiveRecord::Base
 		ari_options	:exclude => [:password, :money]
 	end
-</code>	
 
 This will exclude columns/relations names 'password' and 'money' from displaying.
 
