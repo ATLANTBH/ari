@@ -1,19 +1,22 @@
-= Ari
+Ari
+===
 
 Active Record Inspector - extend rails project to easily display and navigate through ActiveRecord Models. Ari will display model data including columns, relations (has and belongs) and custom functions. It's easy to customize and extend Ari for your purposes.
 
-== Features
+Features
+--------
 
 * Generators - automatically generate Ari controller and corresponding views
 * Ari will display both belongs to and has relations as links for easy navigation
 * Customize each model which columns you don't wanna to display
 * Add functions that you like to display
 
-== Requirements
-
+Requirements
+--------
 * Rails 3+
 
-== Installation
+Installation
+--------
 
 Install 'ari' gem:
 
@@ -29,7 +32,8 @@ or
 	
 Note: Currently ari was tested only on rails 3.0+	
 	
-== Setup
+Setup
+--------
 
 After installation run ari generator.
 
@@ -45,7 +49,8 @@ Add following resource to routes.rb.
 	
 Run rails and point your browser to ari route, e.g. http://localhost:3000/ari
 
-== Customization
+Customization
+--------
 
 By default ari will display following information from model:
 
@@ -75,7 +80,8 @@ class User < ActiveRecord::Base
 end
 ```
 
-== License
+License
+-------
 
 Copyright 2012 AtlantBH
 
