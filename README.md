@@ -89,6 +89,12 @@ Here is preview of ari:
 [Sample table 1](https://github.com/ATLANTBH/ari/raw/master/images/sample-1.png "Sample table 1")
 [Sample table 2](https://github.com/ATLANTBH/ari/raw/master/images/sample-2.png "Sample table 2")
 
+Note
+----
+
+AriController is inherited from ActionController::Base and it's strongly recomanded to extend AriController
+from some Admin-like controllers in production environment so it will not be accessible by everyone.
+
 License
 -------
 
